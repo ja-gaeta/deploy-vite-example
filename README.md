@@ -8,7 +8,7 @@ Passos para o Deploy de projeto react com vite:
 
 ```
 export default defineConfig({
-  base: '/deploy-vite-example/', ⬅
+  base: '/deploy-vite-example/', <----
   plugins: [reactRefresh()],
 });
 ```
